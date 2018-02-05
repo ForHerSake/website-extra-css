@@ -1,0 +1,152 @@
+#site-navigation {
+	background-color: #AF34CD;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span, .button {
+	background-color: #AF34CD;
+}
+
+.no-sidebar.page-template-full-width-page .site, .no-sidebar.page-template-grid-page .site, .no-sidebar.home.page .site {
+	max-width: none;
+}
+
+@media (max-width: 704px) {
+  .site {
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+}
+
+div.entry-content {
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+
+div.site-branding {
+	background-image: url('http://box5648.temp.domains/~forhersa/wp-content/uploads/2018/02/header.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 704px) {
+  div.site-branding {
+	background-image: none;
+	background-color: #F1F1F1;
+  }
+}
+
+p.site-title {
+	font-size: 64px;
+}
+
+p.site-description {
+	display: none;
+	color: #AF34CD;
+}
+
+h1.entry-title {
+	display: none;
+}
+
+img.polaroid {
+	margin-bottom: 50px;
+  margin-top: 20px;
+	margin-left: 50px;
+	border-style: solid;
+  border-width: 10px;
+  border-color: #F9F9F9;
+	width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 2px #919191;
+}
+
+img.polaroid.left {
+	margin-left: 0px;
+	margin-right: 50px;
+  box-shadow: -2px 2px 2px #919191;
+
+}
+
+@media (max-width: 704px) {
+  img.polaroid {
+	display: none;
+  }
+}
+
+.content-wrapper.full-width.without-featured-image {
+	margin: 0px 0px;
+}
+
+/* Footer */
+
+.footer-widget-area {
+	padding-top: 25px;
+}
+
+ul.footer {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin: 20px auto;
+}
+
+
+.footer .social-icon {
+	width: 50px;
+	margin: 0 10px;
+}
+
+@media (max-width: 704px) {
+	ul.footer {
+		width: 80%;
+		margin: 0px auto;
+	}
+}
+
+.footer .social-icon:hover {
+	filter: grayscale(90%);
+	transition: .2s;
+}
+
+#colophon {
+	display: none;
+}
+
+.footer-text {
+	text-align: center;
+	margin: 10px auto;
+}
+
+/* Social Nav Top */
+
+ul.top {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	margin: 0px auto;
+	position: absolute;
+	top: 15px;
+	right: 10px
+}
+
+
+.top .social-icon {
+	width: 40px;
+	margin: 0 5px;
+	filter: grayscale(100%) brightness(1000%) opacity(70%);
+}
+
+.top .social-icon:hover {
+	filter: grayscale(0%) brightness(100%) opacity(50%);
+	transition: .2s;
+}
+
+@media (max-width: 704px) {
+	ul.top {
+		display: none;
+	}
+}
